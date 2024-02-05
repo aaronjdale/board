@@ -2159,6 +2159,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"board@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "board@workspace:."
+  dependencies:
+    "@mantine/core": "npm:7.5.1"
+    "@mantine/hooks": "npm:7.5.1"
+    "@remix-run/css-bundle": "npm:^2.2.0"
+    "@remix-run/dev": "npm:^2.2.0"
+    "@remix-run/eslint-config": "npm:^2.2.0"
+    "@remix-run/node": "npm:^2.2.0"
+    "@remix-run/react": "npm:^2.2.0"
+    "@remix-run/serve": "npm:^2.2.0"
+    "@types/react": "npm:^18.2.35"
+    "@types/react-dom": "npm:^18.2.14"
+    eslint: "npm:^8.53.0"
+    isbot: "npm:^3.7.0"
+    postcss: "npm:^8.4.31"
+    postcss-preset-mantine: "npm:1.13.0"
+    postcss-simple-vars: "npm:^7.0.1"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.2.2"
+  languageName: unknown
+  linkType: soft
+
 "body-parser@npm:1.20.1":
   version: 1.20.1
   resolution: "body-parser@npm:1.20.1"
@@ -7169,31 +7194,6 @@ __metadata:
   checksum: 803e658c9b51a9b53ee2ada42ff82e8e570444bb97c873e0d602c2d8dcb69a774fd22bd6f26643dfd5ab4c181059ea6c9fb9a99a2d7f9665f3f11bef1a1489bd
   languageName: node
   linkType: hard
-
-"remix-v2@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "remix-v2@workspace:."
-  dependencies:
-    "@mantine/core": "npm:7.5.1"
-    "@mantine/hooks": "npm:7.5.1"
-    "@remix-run/css-bundle": "npm:^2.2.0"
-    "@remix-run/dev": "npm:^2.2.0"
-    "@remix-run/eslint-config": "npm:^2.2.0"
-    "@remix-run/node": "npm:^2.2.0"
-    "@remix-run/react": "npm:^2.2.0"
-    "@remix-run/serve": "npm:^2.2.0"
-    "@types/react": "npm:^18.2.35"
-    "@types/react-dom": "npm:^18.2.14"
-    eslint: "npm:^8.53.0"
-    isbot: "npm:^3.7.0"
-    postcss: "npm:^8.4.31"
-    postcss-preset-mantine: "npm:1.13.0"
-    postcss-simple-vars: "npm:^7.0.1"
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    typescript: "npm:^5.2.2"
-  languageName: unknown
-  linkType: soft
 
 "require-like@npm:>= 0.1.1":
   version: 0.1.2
